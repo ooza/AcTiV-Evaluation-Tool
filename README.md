@@ -18,13 +18,13 @@ Indeed, in text detection the split and merge cases are very frequent; i.e., one
 The following figure depicts the user interface of AcTiVD-Eval as well as a split case, where the ground-truth object is represented by a dashed rectangle and the detection results are in plain line rectangles:
 
 <p align="center"> 
-<img src="/doc/AcTiVDEval_UI.png">
+<img width="980" height="680" src="/doc/AcTiVDEval_UI.png">
 </p>
 
 Th user can apply the evaluation procedure to the current frame (by clicking on the "Evaluate CF" button) or all video frames (by clicking on the "Evaluate All" button). The "Performance Value" button displays precision, recall and F-measure values:
 
 <p align="center"> 
-<img src="/doc/AcTiVDEval_outputs.png">
+<img width="980" height="680" src="/doc/AcTiVDEval_outputs.png">
 </p>
 
 In the precision and recall curves (illustrated above) x-axis denotes tr values and y-axis denotes tp values (precision and recall values by varying tr and tp from 0 to 1 by a step of 0.1). This helps choosing a good threshold value to decide whether a rectangle is correctly detected or not. As in the RRC ICDAR competitions, the recall and precision thresholds (tr and tp) are set to **0.8 and 0.4**, respectively.
